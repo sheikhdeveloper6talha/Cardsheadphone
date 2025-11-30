@@ -11,7 +11,7 @@ let next = ()=>{
         index = 0
     }
    
-   imgs.src = `./public/image/${images[index]}`
+   imgs.src = `/image/${images[index]}`
    price.textContent = Price[index]
 }
 let prev = ()=>{
@@ -20,6 +20,7 @@ let prev = ()=>{
         index = 3
     }
    
-   imgs.src = `./public/image/${images[index]}`
+   imgs.src = `/image/${images[index]}`
    price.textContent = Price[index]
+
 }
